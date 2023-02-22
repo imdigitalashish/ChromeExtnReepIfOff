@@ -15,5 +15,11 @@
     "action": {
         "default_popup": "index.html",
         "default_title": "ReepIfOff"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'; script-src-elem 'self' 'unsafe-inline';"
     }
 }
