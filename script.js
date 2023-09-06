@@ -1,7 +1,4 @@
 
-load
-
-
 window.onload = () => {
 
     if (location.href.includes("byjus.com")) {
